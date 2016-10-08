@@ -16,8 +16,8 @@ function Header() {
     <div className={s.root}>
       <div className={s.container}>
         <div className={s.banner}>
-          <h1 className={s.bannerTitle}>React</h1>
-          <p className={s.bannerDesc}>Complex web apps made easy</p>
+          <h1 className={s.bannerTitle}>Silicon Magi Starter Kit</h1>
+          <p className={s.bannerDesc}>Featuring:  react-starter-kit, material-ui, universal router, deep linking, responsive mobile design, google analytics and more!</p>
         </div>
       </div>
     </div>

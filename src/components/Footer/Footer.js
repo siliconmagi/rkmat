@@ -16,11 +16,11 @@ function Footer() {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <span className={s.text}>© Your Company</span>
+        <a className={s.link} href="https://siliconmagi.github.io">© Silicon Magi</a>
         <span className={s.spacer}>·</span>
         <Link className={s.link} to="/">Home</Link>
         <span className={s.spacer}>·</span>
-        <Link className={s.link} to="/admin">Admin</Link>
+        <a className={s.link} href="https://github.com/siliconmagi/rkmat">Github</a>
         <span className={s.spacer}>·</span>
         <Link className={s.link} to="/privacy">Privacy</Link>
         <span className={s.spacer}>·</span>

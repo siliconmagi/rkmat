@@ -24,7 +24,6 @@ function Layout({ children }) {
       <Appbar />
       <Header />
       {React.Children.only(children)}
-      <Feedback />
       <Footer />
     </div>
     </MuiThemeProvider>
