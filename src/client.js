@@ -16,6 +16,8 @@ import queryString from 'query-string';
 import { createPath } from 'history/PathUtils';
 import history from './core/history';
 import App from './components/App';
+import injectTapEventPlugin from "react-tap-event-plugin";
+injectTapEventPlugin();
 
 // Global (context) variables that can be easily accessed from any React component
 // https://facebook.github.io/react/docs/context.html

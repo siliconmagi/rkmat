@@ -29,6 +29,8 @@ import schema from './data/schema';
 import routes from './routes';
 import assets from './assets'; // eslint-disable-line import/no-unresolved
 import { port, auth } from './config';
+import injectTapEventPlugin from "react-tap-event-plugin";
+injectTapEventPlugin();
 
 const app = express();
 
