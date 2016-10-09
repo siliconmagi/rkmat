@@ -1,3 +1,5 @@
+/* Modified work Copyright (c) 2016 Matthew Sitthideth, Silicon Magi. All rights reserved. */
+
 import React, { Component, PropTypes } from 'react';
 import history from '../../core/history';
 import Drawer from 'material-ui/Drawer';
@@ -33,8 +35,8 @@ export default class Appbar extends React.Component {
         />}
         onLeftIconButtonTouchTap={this.handleToggle}
         style={{
-        position: 'fixed'
-          }}
+          position: 'fixed'
+        }}
         />
         <Drawer
           docked={false}
