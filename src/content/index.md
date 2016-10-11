@@ -1,5 +1,5 @@
 ---
-title: React.js Starter Kit
+title: Silicon Magi Starter Kit
 component: ContentPage
 ---
 ### Runtime Components
@@ -16,4 +16,4 @@ component: ContentPage
 
 ### Fork me on GitHub
 
-[github.com/kriasoft/react-starter-kit](https://github.com/kriasoft/react-starter-kit)
+[github.com/siliconmagi/rkmat](https://github.com/siliconmagi/rkmat)
